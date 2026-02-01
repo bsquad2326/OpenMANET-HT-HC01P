@@ -71,9 +71,10 @@ Double-check connections (especially MOSI/MISO and RESET/IRQ), then power on the
 
 1. Power on the Pi with the OpenMANET SD card.
 2. Connect to the Pi:
-   - **Ethernet:** Plug into the Pi’s Ethernet port; the Pi may get an IP via DHCP (e.g. 192.168.1.x). Find it from your router or with `arp -a` / a network scanner.
+   -**Ethernet(Basic):** Plug Ethernet cable between laptop and Pi. OpenMANET Dashboard should load at 10.41.254.1 by default. SSH is also possible.
+   - **Ethernet(DHCP):** Plug into the Pi’s Ethernet port; the Pi may get an IP via DHCP (e.g. 192.168.1.x). Find it from your router or with `arp -a` / a network scanner.
    - **On-board Wi‑Fi:** If enabled by default, connect to the OpenWrt Wi‑Fi network and use the IP shown in the device’s info (e.g. 192.168.1.1).
-3. Open a browser and go to the Pi’s IP (e.g. `http://192.168.1.1`). Log in to LuCI (OpenWrt web interface).
+4. Open a browser and go to the Pi’s IP (e.g. `http://192.168.1.1`). Log in to LuCI (OpenWrt web interface).
 
 ---
 
