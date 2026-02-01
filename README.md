@@ -52,14 +52,14 @@ Use the **HT-HC01P Debug Board** pinout from Heltec ([resource.heltec.cn/downloa
 
 | Pi physical pin | BCM GPIO | Signal   | Connect to        |
 |-----------------|----------|----------|-------------------|
-| 1               | —        | 3.3 V    | Debug Board 3.3V   |
+| 1               | —        | 3.3 V    | Debug Board 3V   |
 | 6               | —        | GND      | Debug Board GND   |
 | 19              | 10       | MOSI     | Debug Board MOSI  |
 | 21              | 9        | MISO     | Debug Board MISO  |
 | 23              | 11       | SCLK     | Debug Board SCLK  |
 | 24              | 8        | CE0 (CS) | Debug Board CS    |
-| 11              | 17       | RESET    | Debug Board RST   |
-| 29              | 5        | IRQ      | Debug Board IRQ   |
+| 11              | 17       | RESET    | Debug Board RESET |
+| 29              | 5        | INT      | Debug Board INT   |
 
 OpenMANET’s device tree expects **RESET on GPIO 17 (pin 11)** and **IRQ on GPIO 5 (pin 29)**. Use these exact pins.
 
